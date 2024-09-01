@@ -42,6 +42,7 @@ Visit `http://localhost:5000/` to view the documentation and learn how to use th
 
 - [ ] Add Certificate Search 🔍
 - [ ] Add CA Search 🔎
+- [ ] One Click Hosting 🚀
 
 ## **📞 Contact:**
 
