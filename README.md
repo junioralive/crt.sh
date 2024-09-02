@@ -1,4 +1,4 @@
-# 🌐 crt.sh REST API
+# [🌐 crt.sh REST API](https://crt-sh.vercel.app/)
 
 crt.sh REST API is a unofficial, free and open-source service that retrieves SSL certificate details from crt.sh for specified domains. Designed with simplicity and ease of integration in mind, this API supports seamless integration into various services or applications that programmatically require SSL certificate data. It's a no-CORS, no-authentication-required API, making it publicly accessible and easily self-hostable for anyone needing direct and unrestricted access to SSL certificate information.
 
