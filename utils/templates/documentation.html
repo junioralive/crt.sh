@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Documentation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1><a href="https://github.com/junioralive/crt.sh">crt.sh REST API</a></h1>
+        <div class="social-media">
+            <a href="https://github.com/junioralive"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"></a>
+            <a href="https://discord.gg/cwDTVKyKJz"><img src="https://skillicons.dev/icons?i=discord" alt="Discord"></a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>API Endpoints</h2>
+            <p>Below are the available API endpoints with examples on how to use them:</p>
+            
+            <h3>1. Fetch Identity Certificates</h3>
+            <p>Gets the SSL certificates associated with a domain.</p>
+            <pre>/identity/{domain}</pre>
+            <p>Example: <code>/identity/example.com</code></p>
+            
+            <h3>2. Fetch Specific Certificate</h3>
+            <p>Retrieves detailed information about a specific certificate by its ID.</p>
+            <pre>/certificate/{id}</pre>
+            <p>Example: <code>/certificate/123456</code></p>
+            
+            <h3>3. Fetch CA Details</h3>
+            <p>Provides details about a Certificate Authority (CA) by its ID.</p>
+            <pre>/ca/{id}</pre>
+            <p>Example: <code>/ca/78910</code></p>
+        </section>
+    </main>
+    <footer>
+        <p>Developed by JuniorAlive.</p>
+    </footer>
+</body>
+</html>

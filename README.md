@@ -40,8 +40,9 @@ Visit `http://localhost:5000/` to view the documentation and learn how to use th
 
 ## 📝 To-Do List
 
-- [ ] Add Certificate Search 🔍
-- [ ] Add CA Search 🔎
+- [✔️] Add Certificate Search 🔍
+- [✔️] Add CA Search 🔎
+- [✔️] Documentation 📝
 - [ ] One Click Hosting 🚀
 
 ## **📞 Contact:**
