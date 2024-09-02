@@ -7,6 +7,11 @@ crt.sh REST API is a unofficial, free and open-source service that retrieves SSL
 - 📜 Fetch SSL certificate details by domain.
 - 🚀 More features coming soon...
 
+## Vercel
+Host your own instance of the crt.sh REST API on Vercel with a simple click using the button below.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%junioralive%2Fcrt.sh)
+
 ## 🛠 Setup
 
 ### Prerequisites
@@ -36,14 +41,14 @@ crt.sh REST API is a unofficial, free and open-source service that retrieves SSL
 
 ### 🔍 Usage
 
-Visit `http://localhost:5000/` to view the documentation and learn how to use the API. Use the endpoint `/site/{domain}` to fetch SSL certificate details, replacing `{domain}` with the actual domain name you wish to query.
+Visit `http://localhost:5000/` or the deployment link to view the documentation and learn how to use the API.
 
 ## 📝 To-Do List
 
 - [✔️] Add Certificate Search 🔍
 - [✔️] Add CA Search 🔎
 - [✔️] Documentation 📝
-- [ ] One Click Hosting 🚀
+- [✔️] One Click Hosting 🚀
 
 ## **📞 Contact:**
 
